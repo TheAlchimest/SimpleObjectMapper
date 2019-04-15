@@ -7,8 +7,8 @@ simple object mapper is a simple class that helps you to map any object to anoth
 
 # Examples 
 
--List<ProductDto> products = ObjectMapper.GetEntityList<ProductDto>(product);
+- List<ProductDto> products = ObjectMapper.GetEntityList<ProductDto>(product);
   
--var item = ObjectMapper.GetEntity<Type>(anotherType);
+- var item = ObjectMapper.GetEntity<Type>(anotherType);
   
--ObjectMapper.FillObject(source, target);
+- ObjectMapper.FillObject(source, target);
