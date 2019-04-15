@@ -4,3 +4,9 @@ simple object mapper is a simple class that helps you to map any object to anoth
 - list to list 
 - update object with another object 
 - clone an object 
+
+#Example 
+
+List<ProductDto> products = ObjectMapper.GetEntityList<ProductDto>(product);
+  
+var item = ObjectMapper.GetEntity<Type>(anotherType);
